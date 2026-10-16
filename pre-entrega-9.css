@@ -1,0 +1,23 @@
+/* Agregá esto a css/style.css */
+#avisos {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 320px;
+}
+
+.aviso {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.aviso--info { background: #1d4ed8; }
+.aviso--ok { background: #15803d; }
+.aviso--error { background: #b91c1c; }
